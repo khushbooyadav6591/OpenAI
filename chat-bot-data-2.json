@@ -1,0 +1,60 @@
+{
+  "company": {
+    "name": "Acme Corporation",
+    "address": {
+      "street": "123 Main Street",
+      "city": "Anytown",
+      "state": "California",
+      "postalCode": "12345",
+      "country": "USA"
+    },
+    "phone": "+1 123-456-7890",
+    "website": "https://www.acmecorp.com",
+    "departments": [
+      {
+        "name": "Engineering",
+        "location": "Building A, 3rd Floor",
+        "description": "The Engineering department is responsible for developing innovative software solutions."
+      },
+      {
+        "name": "Sales",
+        "location": "Building B, 1st Floor",
+        "description": "The Sales department focuses on driving revenue by promoting and selling our products."
+      },
+      {
+        "name": "Marketing",
+        "location": "Building C, 2nd Floor",
+        "description": "The Marketing department develops and executes strategies to promote our brand and products."
+      }
+    ]
+  },
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "position": "Software Engineer",
+      "email": "john.doe@acmecorp.com",
+      "phone": "+1 987-654-3210",
+      "department": "Engineering",
+      "bio": "John Doe is a skilled software engineer with experience in developing scalable and robust applications."
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "position": "Sales Representative",
+      "email": "jane.smith@acmecorp.com",
+      "phone": "+1 555-123-4567",
+      "department": "Sales",
+      "bio": "Jane Smith is a dynamic sales representative who excels in building and nurturing client relationships."
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "position": "Marketing Manager",
+      "email": "michael.johnson@acmecorp.com",
+      "phone": "+1 777-888-9999",
+      "department": "Marketing",
+      "bio": "Michael Johnson is an experienced marketing professional specializing in strategic brand management and digital marketing."
+    }
+  ]
+}
